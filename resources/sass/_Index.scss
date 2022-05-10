@@ -1,0 +1,42 @@
+.Index {
+  width: 960px;
+  .IndexContainer {
+    margin: 2rem auto;
+    background-color: $WhiteColor;
+    box-shadow: 0 1px 3px gray;
+    width: 90%;
+    padding: 1rem 1rem 2rem;
+    height: 670px;
+    h1 {
+      margin: 1rem 1rem 2rem 2rem;
+      font-size: 2.2rem;
+    }
+    .IndexText {
+      margin: 1rem;
+      font-size: 1rem;
+      // padding-bottom: 1px;
+      // border-bottom: 1px solid $FontColor;
+    }
+    ol {
+      li {
+        font-size: 1rem;
+        padding-top: 1rem;
+        color: #c12d2d;
+        font-weight: bold;
+        &:last-child {
+          padding-bottom: 1rem;
+        }
+      }
+    }
+    .IndexCheck {
+      border: 2px dotted $FontColor;
+      padding: 1rem;
+      width: 96%;
+      margin: 3rem auto;
+      text-align: center;
+      font-size: 1rem;
+      font-weight: bold;
+      line-height: 2;
+    }
+  }
+}
