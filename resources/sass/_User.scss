@@ -1,6 +1,6 @@
-.About {
+.User {
   width: 960px;
-  .AboutContainer {
+  .UserContainer {
     margin: 2rem auto;
     background-color: $WhiteColor;
     box-shadow: 0 1px 3px gray;
@@ -11,20 +11,19 @@
       margin: 1rem 1rem 2rem 2rem;
       font-size: 2.2rem;
     }
-    ol {
+    ul {
+      margin-left: 2rem;
       li {
-        list-style-type: disc;
+        list-style-type: auto;
         font-size: 1rem;
-        margin: 0 0 2rem 1rem;
-        p {
-          font-size: 0.8rem;
-        }
-      }
-      .title {
-        font-size: 1.5rem;
-        font-weight: bold;
-        list-style: none;
         margin: 0 0 1rem 1rem;
+        // display: flex;
+        .LinkStyle {
+          color: $LinkColor;
+          text-decoration: underline;
+          margin: 0 0.5rem;
+          display: inline-block;
+        }
       }
     }
   }

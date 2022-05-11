@@ -16,7 +16,7 @@
   }
   .HeaderContainer {
     display: flex;
-    justify-content: space-between;
+    // justify-content: space-between;
     width: 100%;
     .WebTitle {
       color: $WhiteColor;
@@ -42,6 +42,8 @@
     }
     .HeaderLink {
       display: flex;
+      margin-left: 5.4rem;
+      margin-right: auto;
       &__item {
         width: 6rem;
         margin: auto;

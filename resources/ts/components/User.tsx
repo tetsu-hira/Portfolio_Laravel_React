@@ -15,16 +15,20 @@ const User = () => {
   };
 
   return (
-    <div>
-      <h1>Userページ</h1>
-      <ul>
-        {users.map((user: User) => (
-          <li key={user.id}>
-            {user.name}
-            <Link to={`/user/${user.id}`}>詳細</Link>
-          </li>
-        ))}
-      </ul>
+    <div className='User'>
+      <div className='UserContainer'>
+        <h1>＜Team-List＞</h1>
+        <ul>
+          {users.map((user: User) => (
+            <li key={user.id}>
+              {user.name}
+              <Link to={`/user/${user.id}`} className='LinkStyle'>
+                詳細
+              </Link>
+            </li>
+          ))}
+        </ul>
+      </div>
     </div>
   );
 };

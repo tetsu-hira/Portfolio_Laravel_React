@@ -11476,7 +11476,6 @@ button {
 }
 .Header .HeaderContainer {
   display: flex;
-  justify-content: space-between;
   width: 100%;
 }
 .Header .HeaderContainer .WebTitle {
@@ -11501,6 +11500,8 @@ button {
 }
 .Header .HeaderContainer .HeaderLink {
   display: flex;
+  margin-left: 5.4rem;
+  margin-right: auto;
 }
 .Header .HeaderContainer .HeaderLink__item {
   width: 6rem;
@@ -11803,50 +11804,20 @@ button {
 .Item .ItemHead.users {
   min-width: 300px;
 }
-.Item .ItemHead.users:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
-}
 .Item .ItemHead.point {
   width: 100px;
-}
-.Item .ItemHead.point:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
 }
 .Item .ItemHead.score {
   width: 100px;
 }
-.Item .ItemHead.score:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
-}
 .Item .ItemHead.times {
   width: 100px;
-}
-.Item .ItemHead.times:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
 }
 .Item .ItemHead.ratio {
   width: 100px;
 }
-.Item .ItemHead.ratio:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
-}
 .Item .ItemHead.count {
   width: 100px;
-}
-.Item .ItemHead.count:hover {
-  background-color: #ffffff;
-  color: #4d80b0;
-  transition: all 0.5s ease;
 }
 
 .List .ListTop {
@@ -12940,7 +12911,46 @@ button {
   font-size: 2.2rem;
 }
 .About .AboutContainer ol li {
+  list-style-type: disc;
+  font-size: 1rem;
+  margin: 0 0 2rem 1rem;
+}
+.About .AboutContainer ol li p {
+  font-size: 0.8rem;
+}
+.About .AboutContainer ol .title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  list-style: none;
+  margin: 0 0 1rem 1rem;
+}
+
+.User {
+  width: 960px;
+}
+.User .UserContainer {
+  margin: 2rem auto;
+  background-color: #fff;
+  box-shadow: 0 1px 3px gray;
+  width: 90%;
+  padding: 1rem 1rem 2rem;
+  height: auto;
+}
+.User .UserContainer h1, .User .UserContainer .h1 {
+  margin: 1rem 1rem 2rem 2rem;
+  font-size: 2.2rem;
+}
+.User .UserContainer ul {
+  margin-left: 2rem;
+}
+.User .UserContainer ul li {
   list-style-type: auto;
   font-size: 1rem;
   margin: 0 0 1rem 1rem;
+}
+.User .UserContainer ul li .LinkStyle {
+  color: #0033cc;
+  text-decoration: underline;
+  margin: 0 0.5rem;
+  display: inline-block;
 }

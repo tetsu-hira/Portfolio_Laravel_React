@@ -5635,60 +5635,84 @@ var About = function About() {
       children: [(0, jsx_runtime_1.jsx)("h1", {
         children: "2setMatch\u306E\u8AAC\u660E\u66F8"
       }), (0, jsx_runtime_1.jsxs)("ol", {
-        children: [(0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+        children: [(0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u8A08\u7B97\u30B7\u30FC\u30C8\u306E\u4F5C\u6210\u65B9\u6CD5\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u5DE6\u30B5\u30A4\u30C9\u30D0\u30FC\u306E\u5165\u529B\u6B04\u306B\u4F5C\u6210\u3057\u305F\u3044\u8A08\u7B97\u30B7\u30FC\u30C8\u306E\u540D\u524D\u3092\u5165\u529B\u3059\u308B"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u5165\u529B\u6B04\u4E0B\u306E\u300ECreate\u300F\u3092\u30AF\u30EA\u30C3\u30AF"
+        }), (0, jsx_runtime_1.jsxs)("li", {
+          children: ["\u300ECategory-List\u300F\u306E\u4E0B\u306B\u4F5C\u6210\u3057\u305F\u8A08\u7B97\u30B7\u30FC\u30C8\u306E\u540D\u524D\u304C\u4F5C\u6210\u3055\u308C\u307E\u3059", (0, jsx_runtime_1.jsx)("p", {
+            children: "\u203B\u8A08\u7B97\u30B7\u30FC\u30C8\u306F\u4F55\u500B\u3067\u3082\u4F5C\u6210\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+          })]
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u30EA\u30B9\u30C8\u306B\u8868\u793A\u3055\u308C\u305F\u30B7\u30FC\u30C8\u540D\u3092\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u8A08\u7B97\u30B7\u30FC\u30C8\u306E\u4E2D\u8EAB\u304C\u8868\u793A\u3055\u308C\u307E\u3059"
+        }), (0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u30C1\u30FC\u30E0\u306E\u767B\u9332\u65B9\u6CD5\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u300E\u53C2\u52A0\u3059\u308B\u30C1\u30FC\u30E0\u3092\u5165\u529B\u300F\u306E\u6B04\u306B\u30C1\u30FC\u30E0\u540D\u3092\u5165\u529B\u3057\u307E\u3059"
+        }), (0, jsx_runtime_1.jsxs)("li", {
+          children: ["\u5165\u529B\u6B04\u306E\u6A2A\u306B\u3042\u308B\u300EEntry\u300F\u3092\u30AF\u30EA\u30C3\u30AF\u3059\u308B\u3068\u4E0B\u306B\u30C1\u30FC\u30E0\u304C\u767B\u9332\u3055\u308C\u3066\u3044\u304D\u307E\u3059", (0, jsx_runtime_1.jsx)("p", {
+            children: "\u203B\u53C2\u52A0\u30C1\u30FC\u30E0\u306F\u4F55\u500B\u3067\u3082\u767B\u9332\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
+          })]
+        }), (0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u52DD\u3061\u70B9\u306E\u767B\u9332\u65B9\u6CD5\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u53C2\u52A0\u30C1\u30FC\u30E0\u306E\u6A2A\u306B\u3042\u308B\u300EWW\u300F\u30FB\u300EDW\u300F\u30FB\u300EDD\u300F\u30FB\u300EDL\u300F\u306B\u52DD\u3061\u70B9\u3092\u5165\u529B\u3057\u3066\u3044\u304D\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\uFF37\uFF37\u300F\u30002-0\u3067\u52DD\u3063\u305F\u30C1\u30FC\u30E0\u306E\u52DD\u3061\u70B9\u3092\u5165\u529B\u3057\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\uFF24\uFF37\u300F\u30001-1\u3067\u5408\u8A08\u70B9\u6570\u304C\u591A\u304B\u3063\u305F\u30C1\u30FC\u30E0\u306E\u52DD\u3061\u70B9\u3092\u5165\u529B\u3057\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\uFF24\uFF24\u300F\u30001-1\u3067\u5408\u8A08\u70B9\u6570\u304C\u540C\u3058\u3060\u3063\u305F\u5834\u5408\u306E\u52DD\u3061\u70B9\u3092\u5165\u529B\u3057\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\uFF24\uFF2C\u300F\u30001-1\u3067\u5408\u8A08\u70B9\u6570\u304C\u5C11\u306A\u304B\u3063\u305F\u30C1\u30FC\u30E0\u306E\u52DD\u3061\u70B9\u3092\u5165\u529B\u3057\u307E\u3059"
+        }), (0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u5BFE\u6226\u7D50\u679C\u306E\u767B\u9332\u65B9\u6CD5\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u767B\u9332\u3057\u305F\u3044\u30C1\u30FC\u30E0\u306E\u30C1\u30FC\u30E0\u540D\u306E\u6A2A\u306B\u3042\u308B\u2193\u30DC\u30BF\u30F3\u3092\u30AF\u30EA\u30C3\u30AF\u3057\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u30C1\u30FC\u30E0\u30EA\u30B9\u30C8\u306E\u4E0B\u306B\u5BFE\u6226\u8868\u304C\u4F5C\u6210\u3055\u308C\u307E\u3059\u306E\u3067\u7D50\u679C\u3092\u5165\u529B\u3057\u3066\u3044\u304D\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\uFF0B\u300F\u30DC\u30BF\u30F3\u3000\u70B9\u6570\u304C\uFF0B\uFF15\u70B9\u3055\u308C\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300E\u30FC\u300F\u30DC\u30BF\u30F3\u3000\u70B9\u6570\u304C\uFF0D\uFF11\u70B9\u3055\u308C\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300EDel\u300F\u30DC\u30BF\u30F3\u3000\u9593\u9055\u3048\u305F\u5834\u5408\u306B\u7D50\u679C\u3092\u524A\u9664\u3059\u308B\u3053\u3068\u304C\u3067\u304D\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u70B9\u6570\u304C\u5165\u529B\u3055\u308C\u3066\u3044\u304F\u3068\u305D\u308C\u306B\u5F93\u3063\u3066\u5168\u4F53\u7D50\u679C\u304C\u66F4\u65B0\u3055\u308C\u307E\u3059"
+        }), (0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u8A66\u5408\u7D50\u679C\u306E\u898B\u65B9\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u300Epoint\u300F\u3000\u30C1\u30FC\u30E0\u304C\u7372\u5F97\u3057\u305F\u5408\u8A08\u52DD\u3061\u70B9\u3067\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300Escore\u300F\u3000\u30C1\u30FC\u30E0\u306E\u5F97\u5931\u70B9\u5DEE\u3067\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300Etimes\u300F\u3000\u30C1\u30FC\u30E0\u306E\u5BFE\u6226\u56DE\u6570\u3067\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300Ecount\u300F\u3000\u203B\u5DE5\u4E8B\u4E2D\u3067\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u300Eratio\u300F\u3000\u203B\u5DE5\u4E8B\u4E2D\u3067\u3059"
+        }), (0, jsx_runtime_1.jsx)("li", __assign({
+          className: 'title'
+        }, {
+          children: "\uFF1C\u6CE8\u610F\u4E8B\u9805\uFF1E"
+        })), (0, jsx_runtime_1.jsx)("li", {
+          children: "\u30B5\u30A4\u30C8\u3092\u30EA\u30ED\u30FC\u30C9\uFF08\u518D\u8AAD\u307F\u8FBC\u307F\uFF09\u3059\u308B\u3068\u30C7\u30FC\u30BF\u304C\u5168\u3066\u30EA\u30BB\u30C3\u30C8\u3055\u308C\u307E\u3059"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u9806\u4F4D\u9806\u306B\u4E26\u3073\u5909\u3048\u308B\u6A5F\u80FD\u306F\u3042\u308A\u307E\u305B\u3093\uFF08\u203B\u6B21\u56DE\u5B9F\u88C5\u4E88\u5B9A\uFF09"
         }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
-        }), (0, jsx_runtime_1.jsx)("li", {
-          children: "\u3053\u3053\u306B\u8AAC\u660E\u304C\u5165\u308A\u307E\u3059"
+          children: "\u767B\u9332\u3057\u305F\u30C1\u30FC\u30E0\u306F\u6D88\u3059\u3053\u3068\u304C\u3067\u304D\u307E\u305B\u3093"
         })]
       })]
     }))
@@ -5811,6 +5835,14 @@ var App = function App() {
       item = _a[0],
       setItem = _a[1];
 
+  var _b = (0, react_1.useState)(window.location.pathname),
+      stateProp = _b[0],
+      setStateProp = _b[1];
+
+  var updateState = function updateState(paths) {
+    setStateProp(paths);
+  };
+
   var entryItem = (0, react_redux_2.useSelector)(function (state) {
     return state.entryItem;
   });
@@ -5837,7 +5869,10 @@ var App = function App() {
 
   return (0, jsx_runtime_1.jsx)(react_router_dom_1.BrowserRouter, {
     children: (0, jsx_runtime_1.jsxs)(jsx_runtime_1.Fragment, {
-      children: [(0, jsx_runtime_1.jsx)(Header_1["default"], {}), (0, jsx_runtime_1.jsx)("div", __assign({
+      children: [(0, jsx_runtime_1.jsx)(Header_1["default"], {
+        updateState: updateState,
+        stateProp: stateProp
+      }), (0, jsx_runtime_1.jsx)("div", __assign({
         className: 'App'
       }, {
         children: (0, jsx_runtime_1.jsx)("div", __assign({
@@ -5879,23 +5914,28 @@ var App = function App() {
               })), (0, jsx_runtime_1.jsx)("ul", __assign({
                 className: 'TopList'
               }, {
-                children: entryItem.itemList.map(function (item) {
-                  return (0, jsx_runtime_1.jsx)("li", __assign({
-                    className: 'TopList__item'
-                  }, {
-                    children: (0, jsx_runtime_1.jsx)("div", __assign({
-                      className: 'TopList__itemName'
+                children: entryItem.itemList.map(function (item, index) {
+                  return (0, jsx_runtime_1.jsx)(react_1["default"].Fragment, {
+                    children: (0, jsx_runtime_1.jsx)("li", __assign({
+                      className: 'TopList__item'
                     }, {
-                      children: (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
-                        to: "./".concat(item),
+                      children: (0, jsx_runtime_1.jsx)("div", __assign({
                         className: 'TopList__itemName'
                       }, {
-                        children: (0, jsx_runtime_1.jsx)("p", {
-                          children: item
-                        })
+                        children: (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
+                          to: "./".concat(item),
+                          className: 'TopList__itemName',
+                          onClick: function onClick() {
+                            updateState('');
+                          }
+                        }, {
+                          children: (0, jsx_runtime_1.jsx)("p", {
+                            children: item
+                          })
+                        }))
                       }))
-                    }))
-                  }), item);
+                    }), item)
+                  }, index);
                 })
               }))]
             })), (0, jsx_runtime_1.jsx)("div", __assign({
@@ -5939,56 +5979,6 @@ if (document.getElementById('app')) {
 
 /***/ }),
 
-/***/ "./resources/ts/components/Button.tsx":
-/*!********************************************!*\
-  !*** ./resources/ts/components/Button.tsx ***!
-  \********************************************/
-/***/ (function(__unused_webpack_module, exports, __webpack_require__) {
-
-"use strict";
-
-
-var __assign = this && this.__assign || function () {
-  __assign = Object.assign || function (t) {
-    for (var s, i = 1, n = arguments.length; i < n; i++) {
-      s = arguments[i];
-
-      for (var p in s) {
-        if (Object.prototype.hasOwnProperty.call(s, p)) t[p] = s[p];
-      }
-    }
-
-    return t;
-  };
-
-  return __assign.apply(this, arguments);
-};
-
-Object.defineProperty(exports, "__esModule", ({
-  value: true
-}));
-
-var jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules/react/jsx-runtime.js");
-
-var Button = function Button(_a) {
-  var key = _a.key,
-      button = _a.button,
-      handleSort = _a.handleSort,
-      sort = _a.sort;
-  return (0, jsx_runtime_1.jsx)("button", __assign({
-    onClick: function onClick() {
-      return handleSort(key);
-    },
-    className: "ItemHead ".concat(button)
-  }, {
-    children: button.charAt(0).toUpperCase() + button.slice(1)
-  }), button);
-};
-
-exports["default"] = Button;
-
-/***/ }),
-
 /***/ "./resources/ts/components/Header.tsx":
 /*!********************************************!*\
   !*** ./resources/ts/components/Header.tsx ***!
@@ -6028,42 +6018,11 @@ var jsx_runtime_1 = __webpack_require__(/*! react/jsx-runtime */ "./node_modules
 
 var react_router_dom_1 = __webpack_require__(/*! react-router-dom */ "./node_modules/react-router-dom/index.js");
 
-var react_1 = __webpack_require__(/*! react */ "./node_modules/react/index.js");
-
 var search_png_1 = __importDefault(__webpack_require__(/*! ./image/search.png */ "./resources/ts/components/image/search.png"));
 
-var Header = function Header() {
-  var _a = (0, react_1.useState)(false),
-      top = _a[0],
-      setTop = _a[1];
-
-  var _b = (0, react_1.useState)(false),
-      about = _b[0],
-      setAbout = _b[1];
-
-  var _c = (0, react_1.useState)(false),
-      user = _c[0],
-      setUser = _c[1];
-
-  var handleOnTop = function handleOnTop() {
-    setTop(true);
-    setAbout(false);
-    setUser(false);
-  };
-
-  var handleOnAbout = function handleOnAbout() {
-    setTop(false);
-    setAbout(true);
-    setUser(false);
-  };
-
-  var handleOnUser = function handleOnUser() {
-    setTop(false);
-    setAbout(false);
-    setUser(true);
-  };
-
-  var URL = window.location.pathname;
+var Header = function Header(_a) {
+  var updateState = _a.updateState,
+      stateProp = _a.stateProp;
   return (0, jsx_runtime_1.jsx)("div", __assign({
     className: 'Header'
   }, {
@@ -6080,30 +6039,36 @@ var Header = function Header() {
         children: [(0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
           to: '/',
           className: 'HeaderLink__item',
-          onClick: handleOnTop
+          onClick: function onClick() {
+            updateState('/');
+          }
         }, {
           children: (0, jsx_runtime_1.jsx)("li", __assign({
-            className: URL === '/' ? 'HeaderLink__text' : 'HeaderLink__false'
+            className: stateProp === '/' ? 'HeaderLink__text' : 'HeaderLink__false'
           }, {
             children: "Top"
           }))
         })), (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
           to: '/about',
           className: 'HeaderLink__item',
-          onClick: handleOnAbout
+          onClick: function onClick() {
+            updateState('/about');
+          }
         }, {
           children: (0, jsx_runtime_1.jsx)("li", __assign({
-            className: URL === '/about' ? 'HeaderLink__text' : 'HeaderLink__false'
+            className: stateProp === '/about' ? 'HeaderLink__text' : 'HeaderLink__false'
           }, {
             children: "About"
           }))
         })), (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
           to: '/user',
           className: 'HeaderLink__item',
-          onClick: handleOnUser
+          onClick: function onClick() {
+            updateState('/user');
+          }
         }, {
           children: (0, jsx_runtime_1.jsx)("li", __assign({
-            className: URL === '/user' ? 'HeaderLink__text' : 'HeaderLink__false'
+            className: stateProp === '/user' ? 'HeaderLink__text' : 'HeaderLink__false'
           }, {
             children: "Team"
           }))
@@ -6183,8 +6148,6 @@ var react_router_1 = __webpack_require__(/*! react-router */ "./node_modules/rea
 var actions_1 = __importDefault(__webpack_require__(/*! ../actions */ "./resources/ts/actions/index.ts"));
 
 var data_1 = __importDefault(__webpack_require__(/*! ../data */ "./resources/ts/data.ts"));
-
-var Button_1 = __importDefault(__webpack_require__(/*! ./Button */ "./resources/ts/components/Button.tsx"));
 
 var sita_svg_1 = __importDefault(__webpack_require__(/*! ./image/sita.svg */ "./resources/ts/components/image/sita.svg"));
 
@@ -6298,8 +6261,8 @@ var Item = function Item() {
 
   console.log('sortの中身は' + sort);
   console.log(sort);
-  var KEYS = Object.keys(data_1["default"]); // console.log(KEYS);
-  // ソート機能を実装
+  var KEYS = Object.keys(data_1["default"]);
+  console.log(KEYS); // ソート機能を実装
 
   var sortList = (0, react_1.useMemo)(function () {
     var _sortList = List;
@@ -6920,11 +6883,13 @@ var Item = function Item() {
           }, {
             children: "No."
           })), KEYS.map(function (key, index) {
-            return (0, jsx_runtime_1.jsx)(Button_1["default"], {
-              button: key,
-              sort: sort,
-              handleSort: handleSort
-            }, index);
+            return (// <Button key={index} button={key} sort={sort} handleSort={handleSort}></Button> ソート機能改善必要
+              (0, jsx_runtime_1.jsx)("div", __assign({
+                className: "ItemHead ".concat(key)
+              }, {
+                children: key
+              }), index)
+            );
           })]
         })), entryTeam.teamList.length > 0 && (0, jsx_runtime_1.jsx)("ul", __assign({
           className: 'List'
@@ -7500,21 +7465,28 @@ var User = function User() {
     });
   };
 
-  return (0, jsx_runtime_1.jsxs)("div", {
-    children: [(0, jsx_runtime_1.jsx)("h1", {
-      children: "User\u30DA\u30FC\u30B8"
-    }), (0, jsx_runtime_1.jsx)("ul", {
-      children: users.map(function (user) {
-        return (0, jsx_runtime_1.jsxs)("li", {
-          children: [user.name, (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
-            to: "/user/".concat(user.id)
-          }, {
-            children: "\u8A73\u7D30"
-          }))]
-        }, user.id);
-      })
-    })]
-  });
+  return (0, jsx_runtime_1.jsx)("div", __assign({
+    className: 'User'
+  }, {
+    children: (0, jsx_runtime_1.jsxs)("div", __assign({
+      className: 'UserContainer'
+    }, {
+      children: [(0, jsx_runtime_1.jsx)("h1", {
+        children: "\uFF1CTeam-List\uFF1E"
+      }), (0, jsx_runtime_1.jsx)("ul", {
+        children: users.map(function (user) {
+          return (0, jsx_runtime_1.jsxs)("li", {
+            children: [user.name, (0, jsx_runtime_1.jsx)(react_router_dom_1.Link, __assign({
+              to: "/user/".concat(user.id),
+              className: 'LinkStyle'
+            }, {
+              children: "\u8A73\u7D30"
+            }))]
+          }, user.id);
+        })
+      })]
+    }))
+  }));
 };
 
 exports["default"] = User;

@@ -78,7 +78,7 @@ const Item: React.FC = () => {
   console.log(sort);
 
   const KEYS = Object.keys(data);
-  // console.log(KEYS);
+  console.log(KEYS);
 
   // ソート機能を実装
   const sortList = useMemo(() => {
@@ -683,7 +683,10 @@ const Item: React.FC = () => {
           <div className='Item'>
             <div className='ItemHead id'>No.</div>
             {KEYS.map((key, index: number) => (
-              <Button key={index} button={key} sort={sort} handleSort={handleSort}></Button>
+              // <Button key={index} button={key} sort={sort} handleSort={handleSort}></Button> ソート機能改善必要
+              <div className={`ItemHead ${key}`} key={index}>
+                {key}
+              </div>
             ))}
           </div>
           {entryTeam.teamList.length > 0 && (

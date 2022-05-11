@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { FC, useState } from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
@@ -17,8 +17,14 @@ import { BrowserRouter, Route, Routes, Link } from 'react-router-dom';
 
 const store = createStore(rootReducer);
 
-const App = () => {
+const App: FC = () => {
   const [item, setItem] = useState<string>('');
+
+  const [stateProp, setStateProp] = useState<string>(window.location.pathname);
+
+  const updateState = (paths: string) => {
+    setStateProp(paths);
+  };
 
   const entryItem = useSelector((state: RootState) => state.entryItem);
   const dispatch = useDispatch();
@@ -44,7 +50,7 @@ const App = () => {
   return (
     <BrowserRouter>
       <>
-        <Header />
+        <Header updateState={updateState} stateProp={stateProp} />
         <div className='App'>
           <div className='Top'>
             <div className='TopContainer'>
@@ -71,14 +77,22 @@ const App = () => {
                   <div className='TopHead__title'>＜Category-List＞</div>
                 </div>
                 <ul className='TopList'>
-                  {entryItem.itemList.map((item: string) => (
-                    <li key={item} className='TopList__item'>
-                      <div className='TopList__itemName'>
-                        <Link to={`./${item}`} className='TopList__itemName'>
-                          <p>{item}</p>
-                        </Link>
-                      </div>
-                    </li>
+                  {entryItem.itemList.map((item: string, index: number) => (
+                    <React.Fragment key={index}>
+                      <li key={item} className='TopList__item'>
+                        <div className='TopList__itemName'>
+                          <Link
+                            to={`./${item}`}
+                            className='TopList__itemName'
+                            onClick={() => {
+                              updateState('');
+                            }}
+                          >
+                            <p>{item}</p>
+                          </Link>
+                        </div>
+                      </li>
+                    </React.Fragment>
                   ))}
                 </ul>
               </div>
